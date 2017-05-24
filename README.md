@@ -12,6 +12,7 @@ This role has been create to be general, but it is used to create Galaxy Referen
 ### Development
 
 - S3 support and squid proxy server support is on-going.
+- Replica server support is on-going.
 
 Requirements
 ------------
