@@ -27,7 +27,7 @@
     minute: 0
     hour: 0
     user: root
-    job: 'Cvmfs-stratum0-resign'
+    job: '/usr/local/bin/Cvmfs-stratum0-resign >> /var/log/Cvmfs-stratum0-resign.log 2>&1'
     cron_file: cvmfs_server_resign
 
 - name: Restart Apache
