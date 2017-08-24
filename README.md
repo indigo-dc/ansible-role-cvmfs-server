@@ -46,18 +46,14 @@ The role is able to detect the server ip address automatically, through ansible.
 
 License
 -------
-
-Apache Licence v2
-http://www.apache.org/licenses/LICENSE-2.0
+Apache Licence v2: http://www.apache.org/licenses/LICENSE-2.0
 
 Reference
 ---------
-
 Official cvmfs documentation: http://cvmfs.readthedocs.io/en/stable/cpt-repo.html
 
 NIKHEF documentation: https://wiki.nikhef.nl/grid/Adding_a_new_cvmfs_repository
 
 Author Information
 ------------------
-
-Marco Tanagaro (ma.tangaro_at_ibbe.cnr.it)
+Marco Tanagaro (ma.tangaro_at_ibiom.cnr.it)
