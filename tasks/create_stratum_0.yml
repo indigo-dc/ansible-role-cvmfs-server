@@ -33,4 +33,4 @@
 - name: Restart Apache
   systemd:
     name: apache2
-    state: reload
+    state: restarted
