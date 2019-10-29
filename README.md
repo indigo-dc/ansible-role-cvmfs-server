@@ -5,9 +5,7 @@ Ansible role to install CernVM FS Server.
 
 To Install CernVM FS Client: https://github.com/indigo-dc/ansible-role-cvmfs-client
 
-To Create a CernVM Replica: https://github.com/mtangaro/ansible-role-cvmfs-replica (on-going)
-
-This role has been create to be general, but it is used to create Galaxy Reference Data read-only repository. To populate Stratum Zero repository with Reference data: https://github.com/indigo-dc/Reference-data-galaxycloud-repository
+This role has been created to be general, but it is used to create Galaxy Reference Data read-only repository.
 
 ### Development
 
@@ -16,6 +14,7 @@ This role has been create to be general, but it is used to create Galaxy Referen
 
 Requirements
 ------------
+
 This ansible role is compatible with both CentOS 7 and Ubuntu 16.04 Xenial. 
 
 The CernVM-FS (cvmfs) relies on OverlayFS or AUFS as default storage driver. Ubuntu 16.04 natively supports OverlayFS, therefore it is used as default, to create and populate the cvmfs server.
